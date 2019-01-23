@@ -1,0 +1,12 @@
+2018-12-01 09:25:55:402 - info: [Appium] Welcome to Appium v1.8.1
+2018-12-01 09:25:55:405 - info: [Appium] Non-default server args:
+2018-12-01 09:25:55:406 - info: [Appium]   port: 4724
+2018-12-01 09:25:55:406 - info: [Appium]   bootstrapPort: 4901
+2018-12-01 09:25:55:406 - info: [Appium]   sessionOverride: true
+2018-12-01 09:25:55:407 - info: [Appium]   log: D:\Python\workspace\AppiumForUp360\report\log\2018-12-01\teacher\2018-12-01_17_25_34_0.log
+2018-12-01 09:25:55:407 - info: [Appium]   udid: 127.0.0.1:21503
+2018-12-01 09:25:55:408 - warn: [Appium] Deprecated server args:
+2018-12-01 09:25:55:408 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2018-12-01 09:25:55:408 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-01 09:25:55:408 - info: [Appium]   udid: 127.0.0.1:21503
+2018-12-01 09:25:55:501 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4724

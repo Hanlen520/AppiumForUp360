@@ -1,0 +1,11 @@
+case_list_0:
+  -   caseName: 'TeacherLoginCase'
+      method: 'test_03'
+  -   caseName: 'TeacherHomeworkCase'
+      method: 'publish_homework'
+
+case_list_1:
+  -   caseName: 'TeacherLoginCase'
+      method: 'test_01,test_02,test_03'
+  -   caseName: 'TeacherNoticeCase'
+      method: 'enter_send_notice,send_notice_no_obj,send_notice_no_content,send_notice,enter_notice'

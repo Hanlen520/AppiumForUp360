@@ -1,0 +1,6 @@
+case_list_0:
+  -   caseName: 'ParentsLoginCase'
+      method: 'test_03'
+
+  -   caseName: 'ParentsArticleCase'
+      method: 'access_article'

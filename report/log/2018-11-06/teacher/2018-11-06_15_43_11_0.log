@@ -1,0 +1,469 @@
+2018-11-06 07:43:15:314 - info: [Appium] Welcome to Appium v1.8.1
+2018-11-06 07:43:15:318 - info: [Appium] Non-default server args:
+2018-11-06 07:43:15:318 - info: [Appium]   port: 4724
+2018-11-06 07:43:15:318 - info: [Appium]   bootstrapPort: 4901
+2018-11-06 07:43:15:319 - info: [Appium]   sessionOverride: true
+2018-11-06 07:43:15:319 - info: [Appium]   log: D:\Python\workspace\AppiumForUp360\report\log\2018-11-06\teacher\2018-11-06_15_43_11_0.log
+2018-11-06 07:43:15:319 - info: [Appium]   udid: 127.0.0.1:21503
+2018-11-06 07:43:15:319 - warn: [Appium] Deprecated server args:
+2018-11-06 07:43:15:320 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2018-11-06 07:43:15:320 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-11-06 07:43:15:320 - info: [Appium]   udid: 127.0.0.1:21503
+2018-11-06 07:43:15:371 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4724
+2018-11-06 07:43:26:118 - info: [HTTP] --> POST /wd/hub/session
+2018-11-06 07:43:26:119 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appium:appWaitActivity":".ui.IndexActivity","appium:noReset":"False","appium:platforVersion":"4.4.4","appium:appPackage":"com.up360.teacher.android.activity","appium:recreateChromeDriverSessions":true}},"desiredCapabilities":{"platformName":"Android","deviceName":"127.0.0.1:21503","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appWaitActivity":".ui.IndexActivity","noReset":"False","platforVersion":"4.4.4","appPackage":"com.up360.teacher.android.activity","recreateChromeDriverSessions":true}}
+2018-11-06 07:43:26:121 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"127.0.0.1:21503","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appWaitActivity":".ui.IndexActivity","noReset":"False","platforVersion":"4.4.4","appPackage":"com.up360.teacher.android.activity","recreateChromeDriverSessions":true},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appium:appWaitActivity":".ui.IndexActivity","appium:noReset":"False","appium:platforVersion":"4.4.4","appium:appPackage":"com.up360.teacher.android.activity","appium:recreateChromeDriverSessions":true}}]
+2018-11-06 07:43:26:122 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1541490206122 (15:43:26 GMT+0800 (GMT+08:00))
+2018-11-06 07:43:26:125 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-11-06 07:43:26:127 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-06 07:43:26:129 - info: [Appium] Creating new AndroidDriver (v2.7.0) session
+2018-11-06 07:43:26:130 - info: [Appium] Capabilities:
+2018-11-06 07:43:26:130 - info: [Appium]   udid: 127.0.0.1:21503
+2018-11-06 07:43:26:130 - info: [Appium]   platformName: Android
+2018-11-06 07:43:26:130 - info: [Appium]   deviceName: 127.0.0.1:21503
+2018-11-06 07:43:26:130 - info: [Appium]   app: D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk
+2018-11-06 07:43:26:130 - info: [Appium]   appWaitActivity: .ui.IndexActivity
+2018-11-06 07:43:26:130 - info: [Appium]   noReset: False
+2018-11-06 07:43:26:131 - info: [Appium]   platforVersion: 4.4.4
+2018-11-06 07:43:26:131 - info: [Appium]   appPackage: com.up360.teacher.android.activity
+2018-11-06 07:43:26:131 - info: [Appium]   recreateChromeDriverSessions: true
+2018-11-06 07:43:26:135 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:udi... and MJSONWP desired capabilities [object Object] were provided
+2018-11-06 07:43:26:135 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:udi...
+2018-11-06 07:43:26:137 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-06 07:43:26:139 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-11-06 07:43:26:141 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: platforVersion.
+2018-11-06 07:43:26:142 - info: [BaseDriver] Session created with session id: f4be57a3-af99-42bb-979c-e8fdae2e33c5
+2018-11-06 07:43:26:143 - info: [debug] [AndroidDriver] Getting Java version
+2018-11-06 07:43:26:333 - info: [AndroidDriver] Java version is: 1.8.0_171
+2018-11-06 07:43:26:337 - info: [ADB] Checking whether adb is present
+2018-11-06 07:43:26:347 - info: [ADB] Found 12 'build-tools' folders under 'D:\adt-bundle-windows\sdk' (newest first):
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/28.0.1
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/27.0.3
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/27.0.1
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/26.0.2
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/25.0.2
+2018-11-06 07:43:26:347 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/25.0.1
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/23.0.2
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/23.0.1
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/21.1.2
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/21.0.0
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/20.0.0
+2018-11-06 07:43:26:348 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/19.1.0
+2018-11-06 07:43:26:350 - info: [ADB] Using adb.exe from D:\adt-bundle-windows\sdk\platform-tools\adb.exe
+2018-11-06 07:43:26:350 - info: [AndroidDriver] Retrieving device list
+2018-11-06 07:43:26:351 - info: [debug] [ADB] Trying to find a connected android device
+2018-11-06 07:43:26:351 - info: [debug] [ADB] Getting connected devices...
+2018-11-06 07:43:26:403 - info: [debug] [ADB] 1 device(s) connected
+2018-11-06 07:43:26:404 - info: [AndroidDriver] Using device: 127.0.0.1:21503
+2018-11-06 07:43:26:405 - info: [debug] [ADB] Setting device id to 127.0.0.1:21503
+2018-11-06 07:43:26:408 - info: [BaseDriver] Using local app 'D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk'
+2018-11-06 07:43:26:408 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-11-06 07:43:26:409 - info: [AndroidDriver] Starting Android session
+2018-11-06 07:43:26:410 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2018-11-06 07:43:26:441 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2018-11-06 07:43:26:508 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-11-06 07:43:26:509 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-11-06 07:43:26:510 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages io.appium.settings'
+2018-11-06 07:43:27:446 - info: [debug] [ADB] App is installed
+2018-11-06 07:43:27:446 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-11-06 07:43:27:447 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2018-11-06 07:43:27:605 - info: [ADB] Checking whether aapt is present
+2018-11-06 07:43:27:606 - info: [ADB] Using aapt.exe from D:\adt-bundle-windows\sdk\build-tools\28.0.1\aapt.exe
+2018-11-06 07:43:27:635 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-11-06 07:43:27:636 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2018-11-06 07:43:28:008 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2018-11-06 07:43:28:098 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-11-06 07:43:28:098 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:43:28:099 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-11-06 07:43:30:759 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:43:30:760 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2018-11-06 07:43:32:875 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-11-06 07:43:32:876 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-11-06 07:43:32:876 - info: [debug] [Logcat] Starting logcat capture
+2018-11-06 07:43:33:139 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-11-06 07:43:33:140 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-11-06 07:43:33:140 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages io.appium.unlock'
+2018-11-06 07:43:37:446 - info: [debug] [ADB] App is installed
+2018-11-06 07:43:37:446 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-11-06 07:43:37:446 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.unlock'
+2018-11-06 07:43:37:735 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-11-06 07:43:37:735 - info: [ADB] Getting device platform version
+2018-11-06 07:43:37:736 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.release'
+2018-11-06 07:43:37:851 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1.1
+2018-11-06 07:43:37:851 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell wm size'
+2018-11-06 07:43:38:793 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.model'
+2018-11-06 07:43:38:948 - info: [debug] [ADB] Current device property 'ro.product.model': FRD-L19
+2018-11-06 07:43:38:948 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.manufacturer'
+2018-11-06 07:43:39:101 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2018-11-06 07:43:39:102 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-11-06 07:43:39:107 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in D:\adt-bundle-windows\sdk\platform-tools\apkanalyzer.bat,D:\adt-bundle-windows\sdk\emulator\apkanalyzer.bat,D:\adt-bundle-windows\sdk\tools\apkanalyzer.bat,D:\adt-bundle-windows\sdk\tools\bin\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\28.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\27.0.3\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\27.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\26.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\25.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\25.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\23.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\23.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\21.1.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\21.0.0\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\20.0.0\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\19.1.0\apkanalyzer.bat. Do you have the Android SDK installed at 'D:\adt-bundle-windows\sdk'?
+2018-11-06 07:43:39:108 - info: [ADB] Extracting package and launch activity from manifest
+2018-11-06 07:43:39:133 - info: [ADB] Package name: 'com.up360.teacher.android.activity'
+2018-11-06 07:43:39:133 - info: [ADB] Main activity name: 'com.up360.teacher.android.activity.ui.IndexActivity'
+2018-11-06 07:43:39:134 - info: [debug] [AndroidDriver] Parsed package and activity are: com.up360.teacher.android.activity/com.up360.teacher.android.activity.ui.IndexActivity
+2018-11-06 07:43:39:134 - info: [debug] [ADB] Getting install status for com.up360.teacher.android.activity
+2018-11-06 07:43:39:134 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages com.up360.teacher.android.activity'
+2018-11-06 07:43:40:158 - info: [debug] [ADB] App is installed
+2018-11-06 07:43:40:158 - info: [debug] [ADB] Getting install status for com.up360.teacher.android.activity
+2018-11-06 07:43:40:158 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages com.up360.teacher.android.activity'
+2018-11-06 07:43:41:377 - info: [debug] [ADB] App is installed
+2018-11-06 07:43:41:377 - info: [debug] [ADB] Getting package info for 'com.up360.teacher.android.activity'
+2018-11-06 07:43:41:377 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.up360.teacher.android.activity'
+2018-11-06 07:43:41:563 - info: [debug] [ADB] The installed 'com.up360.teacher.android.activity' package does not require upgrade ('3.9.1' >= '3.9.1')
+2018-11-06 07:43:41:564 - info: [AndroidDriver] Performing fast reset on 'com.up360.teacher.android.activity'
+2018-11-06 07:43:41:564 - info: [debug] [ADB] Getting install status for com.up360.teacher.android.activity
+2018-11-06 07:43:41:568 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages com.up360.teacher.android.activity'
+2018-11-06 07:43:42:487 - info: [debug] [ADB] App is installed
+2018-11-06 07:43:42:488 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop com.up360.teacher.android.activity'
+2018-11-06 07:43:43:690 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm clear com.up360.teacher.android.activity'
+2018-11-06 07:43:46:021 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'com.up360.teacher.android.activity' application (stop and clear)
+2018-11-06 07:43:46:022 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell rm -rf /data/local/tmp/strings.json'
+2018-11-06 07:43:46:271 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-11-06 07:43:46:272 - info: [debug] [AndroidDriver] D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk
+2018-11-06 07:43:46:272 - info: [debug] [AndroidDriver] null
+2018-11-06 07:43:46:272 - info: [debug] [AndroidDriver] C:\Users\ADMINI~1\AppData\Local\Temp\com.up360.teacher.android.activity
+2018-11-06 07:43:46:274 - info: [debug] [ADB] Extracting strings for language: default
+2018-11-06 07:43:46:689 - info: [ADB] Successfully extracted 775 strings from 'D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk' resources for '(default)' configuration
+2018-11-06 07:43:46:697 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C\:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\com.up360.teacher.android.activity\\strings.json /data/local/tmp'
+2018-11-06 07:43:46:841 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-11-06 07:43:46:842 - info: [debug] [ADB] Forwarding system: 4901 to device: 4724
+2018-11-06 07:43:46:842 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 forward tcp\:4901 tcp\:4724'
+2018-11-06 07:43:46:871 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-11-06 07:43:46:872 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-11-06 07:43:46:872 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-11-06 07:43:46:872 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-11-06 07:43:46:873 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C\:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.13.0\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-11-06 07:43:47:018 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-11-06 07:43:47:018 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-11-06 07:43:47:019 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2018-11-06 07:43:47:474 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-11-06 07:43:47:474 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-11-06 07:43:47:474 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.up360.teacher.android.activity","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-11-06 07:43:48:995 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-11-06 07:43:48:997 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-11-06 07:43:49:000 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-11-06 07:43:49:001 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window'
+2018-11-06 07:43:49:025 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-11-06 07:43:49:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-11-06 07:43:49:062 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-11-06 07:43:49:179 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-11-06 07:43:49:180 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:43:49:180 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n com.up360.teacher.android.activity/com.up360.teacher.android.activity.ui.IndexActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-11-06 07:43:56:445 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.up360.teacher.android.activity' and activity: '.ui.IndexActivity' to be focused
+2018-11-06 07:43:56:446 - info: [debug] [ADB] Possible activities, to be checked: 'com.up360.teacher.android.activity.ui.IndexActivity'
+2018-11-06 07:43:56:447 - info: [debug] [ADB] Getting focused package and activity
+2018-11-06 07:43:56:447 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window windows'
+2018-11-06 07:43:56:813 - info: [debug] [ADB] Found package: 'com.up360.teacher.android.activity' and fully qualified activity name : 'com.up360.teacher.android.activity.ui.IndexActivity'
+2018-11-06 07:43:56:815 - info: [Appium] New AndroidDriver session created successfully, session f4be57a3-af99-42bb-979c-e8fdae2e33c5 added to master session list
+2018-11-06 07:43:56:815 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1541490236815 (15:43:56 GMT+0800 (GMT+08:00))
+2018-11-06 07:43:56:816 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"127.0.0.1:21503","deviceName":"127.0.0.1:21503","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appWaitActivity":".ui.IndexActivity","noReset":false,"platforVersion":"4.4.4","appPackage":"com.up360.teacher.android.activity","recreateChromeDriverSessions":true},"platformName":"Android","udid":"127.0.0.1:21503","deviceName":"127.0.0.1:21503","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_teacher.apk","appWaitActivity":".ui.IndexActivity","noReset":false,"platforVersion":"4.4.4","appPackage":"com.up360.teacher.android.activity","recreateChromeDriverSessions":true,"deviceUDID":"127.0.0.1:21503","platformVersion":"5.1.1","deviceScreenSize":"800x1280","deviceModel":"FRD-L19","deviceManufacturer":"HUAWEI","appWaitPackage":"c...
+2018-11-06 07:43:56:821 - info: [HTTP] <-- POST /wd/hub/session 200 30701 ms - 1186
+2018-11-06 07:43:56:822 - info: [HTTP] 
+2018-11-06 07:44:06:829 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:06:829 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/username","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:06:832 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/username","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:06:839 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:06:840 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:06:841 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/username","context":"","multiple":false}}
+2018-11-06 07:44:06:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/username","context":"","multiple":false}}
+2018-11-06 07:44:06:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:06:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:06:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/username' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:06:850 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/username]
+2018-11-06 07:44:06:923 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-11-06 07:44:06:927 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:06:928 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1"}
+2018-11-06 07:44:06:929 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 100 ms - 53
+2018-11-06 07:44:06:929 - info: [HTTP] 
+2018-11-06 07:44:06:933 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/1/value
+2018-11-06 07:44:06:933 - info: [HTTP] {"text":"13867429835","value":["1","3","8","6","7","4","2","9","8","3","5"],"id":"1","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:06:934 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["1","3","8","6","7","4","2","9","8","3","5"],"1","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:06:936 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"13867429835","replace":false}}
+2018-11-06 07:44:06:940 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"13867429835","replace":false}}
+2018-11-06 07:44:06:943 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:06:944 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-11-06 07:44:06:947 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+2018-11-06 07:44:06:997 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-11-06 07:44:09:440 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-11-06 07:44:09:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-11-06 07:44:09:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 13867429835
+2018-11-06 07:44:12:677 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:44:12:678 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:12:678 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-11-06 07:44:12:679 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/1/value 200 5746 ms - 14
+2018-11-06 07:44:12:680 - info: [HTTP] 
+2018-11-06 07:44:12:683 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:12:683 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/pwd","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:12:683 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/pwd","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:12:687 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:12:687 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:12:688 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/pwd","context":"","multiple":false}}
+2018-11-06 07:44:12:692 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/pwd","context":"","multiple":false}}
+2018-11-06 07:44:12:692 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:12:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:12:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/pwd' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:12:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/pwd]
+2018-11-06 07:44:14:308 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-11-06 07:44:14:308 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:14:309 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2"}
+2018-11-06 07:44:14:309 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 1626 ms - 53
+2018-11-06 07:44:14:310 - info: [HTTP] 
+2018-11-06 07:44:14:312 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/2/value
+2018-11-06 07:44:14:312 - info: [HTTP] {"text":"123456","value":["1","2","3","4","5","6"],"id":"2","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:14:313 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["1","2","3","4","5","6"],"2","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:14:314 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"123456","replace":false}}
+2018-11-06 07:44:14:322 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"123456","replace":false}}
+2018-11-06 07:44:14:323 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:14:323 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-11-06 07:44:14:323 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2018-11-06 07:44:14:334 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-11-06 07:44:17:220 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 123456
+2018-11-06 07:44:20:396 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:44:20:396 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:20:397 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-11-06 07:44:20:398 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/2/value 200 6085 ms - 14
+2018-11-06 07:44:20:398 - info: [HTTP] 
+2018-11-06 07:44:20:402 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:20:402 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/login","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:20:402 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/login","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:20:403 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:20:404 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:20:404 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/login","context":"","multiple":false}}
+2018-11-06 07:44:20:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/login","context":"","multiple":false}}
+2018-11-06 07:44:20:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:20:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:20:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/login' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:20:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/login]
+2018-11-06 07:44:22:016 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-11-06 07:44:22:016 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:22:017 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3"}
+2018-11-06 07:44:22:017 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 1615 ms - 53
+2018-11-06 07:44:22:017 - info: [HTTP] 
+2018-11-06 07:44:22:020 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/3/click
+2018-11-06 07:44:22:020 - info: [HTTP] {"id":"3","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:22:020 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["3","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:22:022 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-11-06 07:44:22:026 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-11-06 07:44:22:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:22:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-11-06 07:44:22:350 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:44:22:351 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:22:352 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-11-06 07:44:22:353 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/3/click 200 332 ms - 14
+2018-11-06 07:44:22:353 - info: [HTTP] 
+2018-11-06 07:44:32:356 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:32:356 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/tab_bar_mine_text","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:32:357 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/tab_bar_mine_text","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:32:358 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:32:359 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:32:359 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/tab_bar_mine_text","context":"","multiple":false}}
+2018-11-06 07:44:32:364 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/tab_bar_mine_text","context":"","multiple":false}}
+2018-11-06 07:44:32:364 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:32:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:32:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/tab_bar_mine_text' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:32:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/tab_bar_mine_text]
+2018-11-06 07:44:33:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2018-11-06 07:44:33:670 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:33:671 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4"}
+2018-11-06 07:44:33:672 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 1315 ms - 53
+2018-11-06 07:44:33:672 - info: [HTTP] 
+2018-11-06 07:44:34:676 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot
+2018-11-06 07:44:34:676 - info: [HTTP] {}
+2018-11-06 07:44:34:677 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:34:678 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:44:37:605 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys input'
+2018-11-06 07:44:38:322 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAACAAElEQVR4AezBDZzUBZ3H8c9vZpZlV3aBXRFUHkowzDXzRD2g0kNNKC0fcLUuHy6ketl1ClGZnQrakxbpGneWD6nlpURZp0gpV4c9YggK5YLiwymoiCjg7sKysDPfY/bP8t9hHnZmmV0X/L3fBgjnnHPOOeec6wERnHPOOeecc66HRHDOOeecc865HhLBOeecc84553pIBOecc84555zrIRGcc84555xzrofEcM4555xzzqWprKykoaGBQi1btoyBAweyp9WrV3PhhReyYcMG3sliOOecc845l8OMGTP43ve+R3epqalh4sSJjB8/npqaGiorK+mooaGB+vp6/vKXv/DII49QX19Pd6urq+NnP/sZixcvplADBw5kwIAB7GnAgAFEo1He6QwQeykSiVBVVYWZkQ9JbNq0iXg8jnPOOeec672GDRvGY489xtixY1m7di3FUllZydSpUznvvPMYNmwYhVi7di3z5s3jjjvuoKGhgWKrq6ujtraWc889l8WLF5OPZcuWMXDgQJL69++PmbGneDxOU1MTkli9ejWTJk3inShGEcyePZt/+qd/ohB//OMfufzyy3HOOeecc73XjBkzSJoxYwbTpk2jGGbMmMHUqVOprKykK4YNG8aMGTP4zGc+w+23386NN95IsdTV1VFbW0uhBg4cyIABA8glGo3Sv39/kgYMGEBXVFRUMHLkSJqbm3nmmWfYF8Uogo997GOUlZVhZuRDEqeffjqXX345zjnnnHOud6qsrGTixIkkTZw4kcrKShoaGuiqmpoabrrpJmpqaiiGyspKZsyYwaRJk5g+fTr19fXsjbq6OmpraymGdevW0dTUhCQ6GjlyJNFolEKNGzeOL33pSxx33HHEYjGSNm3axEMPPcQ3v/lNGhsb6YpLLrmEr371qyTNnz+fL37xi3R09dVXc9FFF5HNokWL+OxnP0shYnQjSSSZGXsyM5xzzjnn...
+2018-11-06 07:44:38:327 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot 200 3650 ms - 525520
+2018-11-06 07:44:38:327 - info: [HTTP] 
+2018-11-06 07:44:40:339 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:40:339 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:40:339 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:40:341 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:40:341 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:40:342 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text","context":"","multiple":false}}
+2018-11-06 07:44:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text","context":"","multiple":false}}
+2018-11-06 07:44:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/tab_bar_homework_online_arrangement_text]
+2018-11-06 07:44:43:272 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2018-11-06 07:44:43:272 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:43:273 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5"}
+2018-11-06 07:44:43:274 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 2935 ms - 53
+2018-11-06 07:44:43:274 - info: [HTTP] 
+2018-11-06 07:44:43:277 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/5/click
+2018-11-06 07:44:43:277 - info: [HTTP] {"id":"5","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:43:277 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["5","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:43:279 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2018-11-06 07:44:43:284 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2018-11-06 07:44:43:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:43:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-11-06 07:44:45:792 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:44:45:792 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:45:792 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-11-06 07:44:45:793 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/5/click 200 2516 ms - 14
+2018-11-06 07:44:45:794 - info: [HTTP] 
+2018-11-06 07:44:46:798 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot
+2018-11-06 07:44:46:798 - info: [HTTP] {}
+2018-11-06 07:44:46:798 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:46:800 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:44:48:438 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys input'
+2018-11-06 07:44:48:893 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAACAAElEQVR4AezBC1zOB//4/9d1dVVKruoqNB2chQxzaA6TzRzHZiTGF5vDvRluhzl/N8fNZo6ZHQwLOYws5tAsch4pMeQSmVNSwpKrlOqq6/f/PH6P6/Hv37+o1HW77f18qgATQgghhBBCCGEBaoQQQgghhBDCQtQIIYQQQgghhIWoEUIIIYQQQggLUSOEEEIIIYQQFqJGCCGEEEIIISxEgxBCCCGEEOL/R6vVYjAYKK3Tp0/j7OxMYfHx8QwZMoR79+7xT6ZBCCGEEEKIJ5g0aRJLliyhovj4+NCtWzfatWuHj48PWq2WggwGA3q9nhMnThAeHo5er6eiBQYGsnXrViIjIyktZ2dnnJycKMzJyQkrKyv+6VSAiWekVqvR6XSoVCpKwmQy8eDBA/Ly8hBCCCGEEM8vT09PTp48SZs2bbh16xblRavVMnLkSPr374+npyelcevWLUJCQlizZg0Gg4HyFhgYSEBAAP369SMyMpKSOH36NM7OzigcHR1RqVQUlpeXR0ZGBiaTifj4eLp3784/kYZysHjxYl5//XVK49ixY4wfPx4hhBBCCPH8mjRpEopJkyYxYcIEysOkSZMYOXIkWq2WsvD09GTSpEn861//YvXq1SxdupTyEhgYSEBAAKXl7OyMk5MTT2JlZYWjoyMKJycnyqJKlSrUrVuXrKwsLl++zH8jDeXg7bffxs7ODpVKRUmYTCZ69uzJ+PHjEUIIIYQQzyetVku3bt1QdOvWDa1Wi8FgoKx8fHxYtmwZPj4+lAetVsukSZPo3r07EydORK/X8ywCAwMJCAigPCQnJ5ORkYHJZKKgunXrYmVlRWm1bduWyZMn06pVKzQaDYoHDx6wZ88e5s+fT3p6OmUxYsQIpk+fjmL37t188sknFDRz5kyGDh1KcQ4dOsSHH35IaWioQCaTCYVKpaIwlUqFEEIIIYR4fg0YMACtVotCq9UyYMAAVq9e...
+2018-11-06 07:44:48:896 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot 200 2097 ms - 231020
+2018-11-06 07:44:48:897 - info: [HTTP] 
+2018-11-06 07:44:50:902 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element
+2018-11-06 07:44:50:903 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/title_bar_noitce_last_btn","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:50:903 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.up360.teacher.android.activity:id/title_bar_noitce_last_btn","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:50:904 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:50:905 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:50:905 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/title_bar_noitce_last_btn","context":"","multiple":false}}
+2018-11-06 07:44:50:911 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/title_bar_noitce_last_btn","context":"","multiple":false}}
+2018-11-06 07:44:50:912 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:50:912 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:50:912 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/title_bar_noitce_last_btn' using 'ID' with the contextId: '' multiple: false
+2018-11-06 07:44:50:912 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/title_bar_noitce_last_btn]
+2018-11-06 07:44:50:934 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2018-11-06 07:44:50:934 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:50:935 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6"}
+2018-11-06 07:44:50:936 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element 200 33 ms - 53
+2018-11-06 07:44:50:936 - info: [HTTP] 
+2018-11-06 07:44:50:939 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/6/click
+2018-11-06 07:44:50:939 - info: [HTTP] {"id":"6","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:50:939 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["6","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:50:940 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-11-06 07:44:50:944 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-11-06 07:44:50:944 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:50:944 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-11-06 07:44:53:888 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:44:53:888 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:44:53:889 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-11-06 07:44:53:890 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/6/click 200 2951 ms - 14
+2018-11-06 07:44:53:890 - info: [HTTP] 
+2018-11-06 07:44:53:893 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot
+2018-11-06 07:44:53:893 - info: [HTTP] {}
+2018-11-06 07:44:53:893 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:53:895 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:44:55:712 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys input'
+2018-11-06 07:44:56:340 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAACAAElEQVR4AezBCXzV9Znw7e/9Oyf7ThbWgAoCEitKEQURRFtwtwWjtR1HRavj01pweFo70yJo27ed1iXWp+1YbLF1eSuKgoq1WkVtNYhEUAirIHsElIST9eSc87/f5z/zOZ83kyZwAskR4b4uARRjjDHGGGOMSQKHMcYYY4wxxiSJwxhjjDHGGGOSxGGMMcYYY4wxSeIwxhhjjDHGmCRxGGOMMcYYY0ySBDHGGGOMMcb8g9zcXEKhEF1VVVVFQUEB7W3cuJFrr72Wffv2cTwLYowxxhhjzEHMmjWLe++9l55SVlbGlClTGDduHGVlZeTm5tJWKBSiurqat99+m7/85S9UV1fT0yoqKnjyySeprKykqwoKCsjPz6e9/Px8AoEAxzsBlCPknKNXr16ICIlQVWpra4nFYhhjjDHGmKNXaWkpy5Yt4+yzz2bHjh10l9zcXG666SauuuoqSktL6YodO3awYMECHn74YUKhEN2toqKC8vJyrrzySiorK0lEVVUVBQUF+PLy8hAR2ovFYjQ0NKCqbNy4kQsvvJDjUZBucM8993DeeefRFX/729+YMWMGxhhjjDHm6DVr1ix8s2bNYubMmXSHWbNmcdNNN5Gbm8vhKC0tZdasWXzzm99k3rx53HfffXSXiooKysvL6aqCggLy8/M5mEAgQF5eHr78/HwOR05ODoMHD6a5uZkNGzbweRSkG1x22WVkZGQgIiRCVbnkkkuYMWMGxhhjjDHm6JSbm8uUKVPwTZkyhdzcXEKhEIerrKyM+++/n7KyMrpDbm4us2bN4sILL+T222+nurqaI1FRUUF5eTndoaamhoaGBlSVtgYPHkwgEKCrxo4dy//+3/+b0aNHEwwG8dXW1vLCCy/wk5/8hPr6eg7HjTfeyPe//318zz//PP/6r/9KW7Nnz+af//mf6czSpUu5+eab6YogPUhV8YkI7YkIxhhjjDHm6HX11VeT...
+2018-11-06 07:44:56:343 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot 200 2449 ms - 216252
+2018-11-06 07:44:56:343 - info: [HTTP] 
+2018-11-06 07:44:58:351 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/elements
+2018-11-06 07:44:58:351 - info: [HTTP] {"using":"class name","value":"android.widget.RadioButton","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:44:58:351 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["class name","android.widget.RadioButton","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:44:58:353 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:44:58:353 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:44:58:354 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.RadioButton","context":"","multiple":true}}
+2018-11-06 07:44:58:358 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.RadioButton","context":"","multiple":true}}
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'android.widget.RadioButton' using 'CLASS_NAME' with the contextId: '' multiple: true
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.RadioButton]
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.RadioButton]
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-11-06 07:44:58:359 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.RadioButton, INSTANCE=0]
+2018-11-06 07:45:02:690 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-11-06 07:45:02:690 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.RadioButton, INSTANCE=1]
+2018-11-06 07:45:02:707 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2018-11-06 07:45:02:707 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.RadioButton, INSTANCE=2]
+2018-11-06 07:45:02:717 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2018-11-06 07:45:02:717 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.RadioButton, INSTANCE=3]
+2018-11-06 07:45:02:727 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2018-11-06 07:45:02:727 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.RadioButton, INSTANCE=4]
+2018-11-06 07:45:02:774 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"}]}
+2018-11-06 07:45:02:774 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:02:775 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"7"},{"element-6066-11e4-a52e-4f735466cecf":"8"},{"element-6066-11e4-a52e-4f735466cecf":"9"},{"element-6066-11e4-a52e-4f735466cecf":"10"}]
+2018-11-06 07:45:02:776 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/elements 200 4425 ms - 188
+2018-11-06 07:45:02:776 - info: [HTTP] 
+2018-11-06 07:45:02:779 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/7/text
+2018-11-06 07:45:02:779 - info: [HTTP] {}
+2018-11-06 07:45:02:779 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["7","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:02:781 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"7"}}
+2018-11-06 07:45:02:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"7"}}
+2018-11-06 07:45:02:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:45:02:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2018-11-06 07:45:03:086 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"语文"}
+2018-11-06 07:45:03:086 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:03:087 - info: [debug] [W3C] Responding to client with driver.getText() result: "语文"
+2018-11-06 07:45:03:089 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/7/text 200 308 ms - 18
+2018-11-06 07:45:03:089 - info: [HTTP] 
+2018-11-06 07:45:03:090 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/7/click
+2018-11-06 07:45:03:091 - info: [HTTP] {"id":"7","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:45:03:091 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["7","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:03:092 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2018-11-06 07:45:03:098 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2018-11-06 07:45:03:098 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:45:03:098 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-11-06 07:45:08:732 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:45:08:732 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:08:733 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-11-06 07:45:08:734 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/7/click 200 5643 ms - 14
+2018-11-06 07:45:08:734 - info: [HTTP] 
+2018-11-06 07:45:08:737 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot
+2018-11-06 07:45:08:737 - info: [HTTP] {}
+2018-11-06 07:45:08:738 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:08:740 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:45:10:500 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys input'
+2018-11-06 07:45:10:972 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAACAAElEQVR4AezBB1jVBd/4//c5HPbGhQouFBRQE0dCrtyjNIGjj2WaZlqOxLxL78zUHJk5UO8sFypaGYaphblK3IrgwI7iwi1DBTmAbM7/+V6/61x/Lh5QUETu+rxeKsCAEEIIIYQQQlQCNUIIIYQQQghRSdQIIYQQQgghRCVRI4QQQgghhBCVRI0QQgghhBBCVBI1QgghhBBCCFFJNAghhBBCCCH+Dzs7O/R6PeUVExODo6MjxV26dIm3336be/fu8U+mQQghhBBCiMeYPHkyixYt4nnx8vKiV69e+Pn54eXlhZ2dHUXp9Xp0Oh1Hjx5l9+7d6HQ6nrfg4GB++uknjh07Rnk5Ojri4OBAcQ4ODpiYmPBPpwIMPCO1Wo2TkxMqlYqyMBgMpKamUlBQgBBCCCGEqLpcXV05fvw47du359atW1QUOzs7Ro0axaBBg3B1daU8bt26RVhYGGvWrEGv11PRgoOD0Wq1BAYGcuzYMcoiJiYGR0dHFPb29qhUKoorKCggIyMDg8HApUuX6N27N/9EGirAwoUL6dKlC+Vx6NAhJk6ciBBCCCGEqLomT56MYvLkyQQFBVERJk+ezKhRo7Czs+NpuLq6MnnyZN577z1Wr17N4sWLqSjBwcFotVrKy9HREQcHBx7HxMQEe3t7FA4ODjwNW1tb3NzcyMrK4uLFi/w30lABXn/9dSwtLVGpVJSFwWCgX79+TJw4ESGEEEIIUTXZ2dnRq1cvFL169cLOzg69Xs/T8vLyYsmSJXh5eVER7OzsmDx5Mr1792bSpEnodDqeRXBwMFqtloqQkJBARkYGBoOBotzc3DAxMaG8fH19+de//kWbNm3QaDQoUlNT+e2335g7dy7p6ek8jXfffZepU6ei+PXXX/noo48oavr06QwbNozS7N+/n9GjR1MeGp4jg8GAQqVSUZxKpUIIIYQQQlRdgwcPxs7ODoWdnR2DBw9m9erV...
+2018-11-06 07:45:10:977 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot 200 2236 ms - 140536
+2018-11-06 07:45:10:977 - info: [HTTP] 
+2018-11-06 07:45:12:992 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/elements
+2018-11-06 07:45:12:992 - info: [HTTP] {"using":"id","value":"com.up360.teacher.android.activity:id/homework_name","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:45:12:992 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.up360.teacher.android.activity:id/homework_name","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:12:994 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-11-06 07:45:12:995 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-11-06 07:45:12:995 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/homework_name","context":"","multiple":true}}
+2018-11-06 07:45:13:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.up360.teacher.android.activity:id/homework_name","context":"","multiple":true}}
+2018-11-06 07:45:13:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:45:13:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-11-06 07:45:13:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.up360.teacher.android.activity:id/homework_name' using 'ID' with the contextId: '' multiple: true
+2018-11-06 07:45:13:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:13:003 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:13:003 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-11-06 07:45:13:003 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:719 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-11-06 07:45:14:719 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:730 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2018-11-06 07:45:14:730 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:738 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2018-11-06 07:45:14:738 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2018-11-06 07:45:14:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:755 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2018-11-06 07:45:14:755 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.up360.teacher.android.activity:id/homework_name]
+2018-11-06 07:45:14:763 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"11"},{"ELEMENT":"12"},{"ELEMENT":"13"},{"ELEMENT":"14"},{"ELEMENT":"15"}]}
+2018-11-06 07:45:14:763 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:14:764 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"11"},{"element-6066-11e4-a52e-4f735466cecf":"12"},{"element-6066-11e4-a52e-4f735466cecf":"13"},{"element-6066-11e4-a52e-4f735466cecf":"14"},{"element-6066-11e4-a52e-4f735466cecf":"15"}]
+2018-11-06 07:45:14:765 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/elements 200 1773 ms - 236
+2018-11-06 07:45:14:766 - info: [HTTP] 
+2018-11-06 07:45:14:769 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/11/text
+2018-11-06 07:45:14:769 - info: [HTTP] {}
+2018-11-06 07:45:14:769 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["11","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:14:771 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"11"}}
+2018-11-06 07:45:14:784 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"11"}}
+2018-11-06 07:45:14:784 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:45:14:784 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2018-11-06 07:45:15:737 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"同步作业"}
+2018-11-06 07:45:15:737 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:15:737 - info: [debug] [W3C] Responding to client with driver.getText() result: "同步作业"
+2018-11-06 07:45:15:738 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/11/text 200 969 ms - 24
+2018-11-06 07:45:15:738 - info: [HTTP] 
+2018-11-06 07:45:15:741 - info: [HTTP] --> POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/11/click
+2018-11-06 07:45:15:741 - info: [HTTP] {"id":"11","sessionId":"f4be57a3-af99-42bb-979c-e8fdae2e33c5"}
+2018-11-06 07:45:15:742 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["11","f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:15:743 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2018-11-06 07:45:15:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2018-11-06 07:45:15:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-11-06 07:45:15:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-11-06 07:45:17:942 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-11-06 07:45:17:942 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-11-06 07:45:17:943 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-11-06 07:45:17:944 - info: [HTTP] <-- POST /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/element/11/click 200 2202 ms - 14
+2018-11-06 07:45:17:944 - info: [HTTP] 
+2018-11-06 07:45:17:947 - info: [HTTP] --> GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot
+2018-11-06 07:45:17:947 - info: [HTTP] {}
+2018-11-06 07:45:17:948 - info: [debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["f4be57a3-af99-42bb-979c-e8fdae2e33c5"]
+2018-11-06 07:45:17:949 - info: [debug] [ADB] Device API level: 22
+2018-11-06 07:45:19:509 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys input'
+2018-11-06 07:45:20:214 - info: [debug] [W3C] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAACAAElEQVR4AezBCXBcB3348e97+/ZerVa7q9W5a0mWLUcbO45xnDiFhNAcMFzTGIWhU6ZDSMNAaeM0pccMTUJaWloCUckMnZIUWjowYJp2MhCOFJKQJjgxduw4kmXLtixLso7VarXaQ3u//c+bzs5f1V+SJVla3D+/z0cBygghhBBCCCFEFagIIYQQQgghRJWoCCGEEEIIIUSVqAghhBBCCCFElagIIYQQQgghRJWoCCGEEEIIIUSVaAghhBBCCCH+H263m0QiwVodO3aMuro6FhscHOSjH/0o09PT/DrTEEIIIYQQYgUPPfQQX/rSl9gs4XCYu+66i5tvvplwOIzb7WahRCJBf38/v/jFL/jJT35Cf38/m623t5fvfve7HD58mLWqq6vD4/GwmMfjwWQy8etOAcpcIVVV8Xq9KIrCapTLZWZnZymVSgghhBBCiKtXMBjktdde46abbmJ0dJSN4na7ue+++7jnnnsIBoOsxejoKIcOHeLpp58mkUiw0Xp7e+np6eFDH/oQhw8fZjWOHTtGXV0dhtraWhRFYbFSqUQqlaJcLjM4OMi73/1ufh1pbIDHH3+cd77znazFf/3Xf/HAAw8ghBBCCCGuXg899BCGhx56iIMHD7IRHnroIe677z7cbjfrEQwGeeihh/i93/s9nnrqKb785S+zUXp7e+np6WGt6urq8Hg8rMRkMlFbW4vB4/GwHjU1NWzdupVMJsOZM2f430hjA7z//e/HbrejKAqrUS6Xee9738sDDzyAEEIIIYS4Orndbu666y4Md911F263m0QiwXqFw2GeeOIJwuEwG8HtdvPQQw/x7ne/mwcffJD+/n6uRG9vLz09PWyEiYkJUqkU5XKZhbZu3YrJZGKt9u/fzx//8R+zd+9eNE3DMDs7yw9+8AM+//nPk0wmWY+Pf/zj/Nmf/RmG73//+/zRH/0RS6mvr+dTn/oUN998M8FgkHQ6...
+2018-11-06 07:45:20:216 - info: [HTTP] <-- GET /wd/hub/session/f4be57a3-af99-42bb-979c-e8fdae2e33c5/screenshot 200 2269 ms - 67096
+2018-11-06 07:45:20:216 - info: [HTTP] 

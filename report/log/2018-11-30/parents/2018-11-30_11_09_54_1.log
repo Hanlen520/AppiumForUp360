@@ -1,0 +1,161 @@
+2018-11-30 03:10:00:430 - info: [Appium] Welcome to Appium v1.8.1
+2018-11-30 03:10:00:433 - info: [Appium] Non-default server args:
+2018-11-30 03:10:00:434 - info: [Appium]   port: 4725
+2018-11-30 03:10:00:434 - info: [Appium]   bootstrapPort: 4902
+2018-11-30 03:10:00:434 - info: [Appium]   sessionOverride: true
+2018-11-30 03:10:00:435 - info: [Appium]   log: D:\Python\workspace\AppiumForUp360\report\log\2018-11-30\parents\2018-11-30_11_09_54_1.log
+2018-11-30 03:10:00:435 - info: [Appium]   udid: 127.0.0.1:21513
+2018-11-30 03:10:00:436 - warn: [Appium] Deprecated server args:
+2018-11-30 03:10:00:436 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21513"}'
+2018-11-30 03:10:00:436 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-11-30 03:10:00:436 - info: [Appium]   udid: 127.0.0.1:21513
+2018-11-30 03:10:00:586 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4725
+2018-11-30 03:10:19:627 - info: [HTTP] --> POST /wd/hub/session
+2018-11-30 03:10:19:628 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21513","appium:app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appium:appWaitActivity":".ui.IndexActivity","appium:noReset":"False","appium:platforVersion":"4.4.4","appium:appPackage":"com.up360.parents.android.activity","appium:recreateChromeDriverSessions":true}},"desiredCapabilities":{"platformName":"Android","deviceName":"127.0.0.1:21513","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appWaitActivity":".ui.IndexActivity","noReset":"False","platforVersion":"4.4.4","appPackage":"com.up360.parents.android.activity","recreateChromeDriverSessions":true}}
+2018-11-30 03:10:19:630 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"127.0.0.1:21513","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appWaitActivity":".ui.IndexActivity","noReset":"False","platforVersion":"4.4.4","appPackage":"com.up360.parents.android.activity","recreateChromeDriverSessions":true},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21513","appium:app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appium:appWaitActivity":".ui.IndexActivity","appium:noReset":"False","appium:platforVersion":"4.4.4","appium:appPackage":"com.up360.parents.android.activity","appium:recreateChromeDriverSessions":true}}]
+2018-11-30 03:10:19:631 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1543547419631 (11:10:19 GMT+0800 (GMT+08:00))
+2018-11-30 03:10:19:634 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-11-30 03:10:19:637 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-30 03:10:19:640 - info: [Appium] Creating new AndroidDriver (v2.7.0) session
+2018-11-30 03:10:19:640 - info: [Appium] Capabilities:
+2018-11-30 03:10:19:640 - info: [Appium]   udid: 127.0.0.1:21513
+2018-11-30 03:10:19:640 - info: [Appium]   platformName: Android
+2018-11-30 03:10:19:640 - info: [Appium]   deviceName: 127.0.0.1:21513
+2018-11-30 03:10:19:641 - info: [Appium]   app: D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk
+2018-11-30 03:10:19:641 - info: [Appium]   appWaitActivity: .ui.IndexActivity
+2018-11-30 03:10:19:641 - info: [Appium]   noReset: False
+2018-11-30 03:10:19:641 - info: [Appium]   platforVersion: 4.4.4
+2018-11-30 03:10:19:641 - info: [Appium]   appPackage: com.up360.parents.android.activity
+2018-11-30 03:10:19:641 - info: [Appium]   recreateChromeDriverSessions: true
+2018-11-30 03:10:19:646 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:udi... and MJSONWP desired capabilities [object Object] were provided
+2018-11-30 03:10:19:647 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:udi...
+2018-11-30 03:10:19:648 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-30 03:10:19:651 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-11-30 03:10:19:653 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: platforVersion.
+2018-11-30 03:10:19:655 - info: [BaseDriver] Session created with session id: adce89fb-71f4-4b7b-a04a-323291bb7dbd
+2018-11-30 03:10:19:655 - info: [debug] [AndroidDriver] Getting Java version
+2018-11-30 03:10:19:819 - info: [AndroidDriver] Java version is: 1.8.0_171
+2018-11-30 03:10:19:822 - info: [ADB] Checking whether adb is present
+2018-11-30 03:10:19:830 - info: [ADB] Found 12 'build-tools' folders under 'D:\adt-bundle-windows\sdk' (newest first):
+2018-11-30 03:10:19:830 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/28.0.1
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/27.0.3
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/27.0.1
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/26.0.2
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/25.0.2
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/25.0.1
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/23.0.2
+2018-11-30 03:10:19:831 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/23.0.1
+2018-11-30 03:10:19:832 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/21.1.2
+2018-11-30 03:10:19:832 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/21.0.0
+2018-11-30 03:10:19:832 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/20.0.0
+2018-11-30 03:10:19:832 - info: [ADB]     D:/adt-bundle-windows/sdk/build-tools/19.1.0
+2018-11-30 03:10:19:833 - info: [ADB] Using adb.exe from D:\adt-bundle-windows\sdk\platform-tools\adb.exe
+2018-11-30 03:10:19:833 - info: [AndroidDriver] Retrieving device list
+2018-11-30 03:10:19:833 - info: [debug] [ADB] Trying to find a connected android device
+2018-11-30 03:10:19:834 - info: [debug] [ADB] Getting connected devices...
+2018-11-30 03:10:19:869 - info: [debug] [ADB] 2 device(s) connected
+2018-11-30 03:10:19:870 - info: [AndroidDriver] Using device: 127.0.0.1:21513
+2018-11-30 03:10:19:871 - info: [debug] [ADB] Setting device id to 127.0.0.1:21513
+2018-11-30 03:10:19:873 - info: [BaseDriver] Using local app 'D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk'
+2018-11-30 03:10:19:873 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-11-30 03:10:19:874 - info: [AndroidDriver] Starting Android session
+2018-11-30 03:10:19:876 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 wait-for-device'
+2018-11-30 03:10:19:905 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell echo ping'
+2018-11-30 03:10:19:988 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-11-30 03:10:19:989 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-11-30 03:10:19:990 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell pm list packages io.appium.settings'
+2018-11-30 03:10:21:384 - info: [debug] [ADB] App is installed
+2018-11-30 03:10:21:384 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-11-30 03:10:21:385 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell dumpsys package io.appium.settings'
+2018-11-30 03:10:21:603 - info: [ADB] Checking whether aapt is present
+2018-11-30 03:10:21:605 - info: [ADB] Using aapt.exe from D:\adt-bundle-windows\sdk\build-tools\28.0.1\aapt.exe
+2018-11-30 03:10:21:642 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-11-30 03:10:21:643 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell ps'
+2018-11-30 03:10:22:163 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell getprop ro.build.version.sdk'
+2018-11-30 03:10:22:411 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-11-30 03:10:22:412 - info: [debug] [ADB] Device API level: 22
+2018-11-30 03:10:22:412 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-11-30 03:10:26:581 - info: [debug] [ADB] Device API level: 22
+2018-11-30 03:10:26:581 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell settings put secure mock_location 1'
+2018-11-30 03:10:29:399 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-11-30 03:10:29:399 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-11-30 03:10:29:400 - info: [debug] [Logcat] Starting logcat capture
+2018-11-30 03:10:29:571 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-11-30 03:10:29:571 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-11-30 03:10:29:571 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell pm list packages io.appium.unlock'
+2018-11-30 03:10:33:237 - info: [debug] [ADB] App is installed
+2018-11-30 03:10:33:237 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-11-30 03:10:33:237 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell dumpsys package io.appium.unlock'
+2018-11-30 03:10:33:446 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-11-30 03:10:33:447 - info: [ADB] Getting device platform version
+2018-11-30 03:10:33:447 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell getprop ro.build.version.release'
+2018-11-30 03:10:33:550 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1.1
+2018-11-30 03:10:33:551 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell wm size'
+2018-11-30 03:10:35:022 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell getprop ro.product.model'
+2018-11-30 03:10:35:176 - info: [debug] [ADB] Current device property 'ro.product.model': FRD-L19
+2018-11-30 03:10:35:177 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell getprop ro.product.manufacturer'
+2018-11-30 03:10:35:293 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2018-11-30 03:10:35:294 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-11-30 03:10:35:301 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in D:\adt-bundle-windows\sdk\platform-tools\apkanalyzer.bat,D:\adt-bundle-windows\sdk\emulator\apkanalyzer.bat,D:\adt-bundle-windows\sdk\tools\apkanalyzer.bat,D:\adt-bundle-windows\sdk\tools\bin\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\28.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\27.0.3\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\27.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\26.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\25.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\25.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\23.0.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\23.0.1\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\21.1.2\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\21.0.0\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\20.0.0\apkanalyzer.bat,D:\adt-bundle-windows\sdk\build-tools\19.1.0\apkanalyzer.bat. Do you have the Android SDK installed at 'D:\adt-bundle-windows\sdk'?
+2018-11-30 03:10:35:302 - info: [ADB] Extracting package and launch activity from manifest
+2018-11-30 03:10:35:330 - info: [ADB] Package name: 'com.up360.parents.android.activity'
+2018-11-30 03:10:35:330 - info: [ADB] Main activity name: 'com.up360.parents.android.activity.ui.IndexActivity'
+2018-11-30 03:10:35:330 - info: [debug] [AndroidDriver] Parsed package and activity are: com.up360.parents.android.activity/com.up360.parents.android.activity.ui.IndexActivity
+2018-11-30 03:10:35:331 - info: [debug] [ADB] Getting install status for com.up360.parents.android.activity
+2018-11-30 03:10:35:331 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell pm list packages com.up360.parents.android.activity'
+2018-11-30 03:10:36:499 - info: [debug] [ADB] App is not installed
+2018-11-30 03:10:36:500 - info: [debug] [ADB] Getting install status for com.up360.parents.android.activity
+2018-11-30 03:10:36:500 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell pm list packages com.up360.parents.android.activity'
+2018-11-30 03:10:37:734 - info: [debug] [ADB] App is not installed
+2018-11-30 03:10:37:734 - info: [debug] [ADB] App 'D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk' not installed. Installing
+2018-11-30 03:10:37:736 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 install D\:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk'
+2018-11-30 03:12:07:750 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 install D\:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk'
+2018-11-30 03:13:36:049 - info: [debug] [ADB] Install command stdout: [  0%] /data/local/tmp/android_phone_parents.apk
+2018-11-30 03:13:36:049 - info: [debug] [ADB] [  0%] /data/local/tmp/android_phone_parents.apk
+2018-11-30 03:13:36:049 - info: [debug] [ADB] [  0%] /data/local/tmp/android_phone_parents.apk
+2018-11-30 03:13:36:049 - info: [debug] [ADB] ...ts.apk: 1 file pushed. 1.2 MB/s (74702112 bytes in 57.752s)
+2018-11-30 03:13:36:049 - info: [debug] [ADB] 	pkg: /data/local/tmp/android_phone_parents.apk
+2018-11-30 03:13:36:050 - info: [debug] [ADB] Failure [INSTALL_FAILED_ALREADY_EXISTS]
+2018-11-30 03:13:36:050 - info: [debug] [ADB] Application 'D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk' already installed. Continuing.
+2018-11-30 03:13:36:051 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell rm -rf /data/local/tmp/strings.json'
+2018-11-30 03:13:36:151 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-11-30 03:13:36:152 - info: [debug] [AndroidDriver] D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk
+2018-11-30 03:13:36:152 - info: [debug] [AndroidDriver] null
+2018-11-30 03:13:36:152 - info: [debug] [AndroidDriver] C:\Users\ADMINI~1\AppData\Local\Temp\com.up360.parents.android.activity
+2018-11-30 03:13:36:153 - info: [debug] [ADB] Extracting strings for language: default
+2018-11-30 03:13:36:756 - info: [ADB] Successfully extracted 875 strings from 'D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk' resources for '(default)' configuration
+2018-11-30 03:13:36:767 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 push C\:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\com.up360.parents.android.activity\\strings.json /data/local/tmp'
+2018-11-30 03:13:36:936 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-11-30 03:13:36:937 - info: [debug] [ADB] Forwarding system: 4902 to device: 4724
+2018-11-30 03:13:36:937 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 forward tcp\:4902 tcp\:4724'
+2018-11-30 03:13:36:970 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-11-30 03:13:36:970 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-11-30 03:13:36:971 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-11-30 03:13:36:971 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-11-30 03:13:36:971 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 push C\:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.13.0\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-11-30 03:13:37:116 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-11-30 03:13:37:117 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-11-30 03:13:37:117 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell ps'
+2018-11-30 03:13:37:582 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-11-30 03:13:37:583 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-11-30 03:13:37:583 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21513","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.up360.parents.android.activity","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-11-30 03:13:39:151 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-11-30 03:13:39:156 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-11-30 03:13:39:160 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-11-30 03:13:39:161 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell dumpsys window'
+2018-11-30 03:13:39:179 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-11-30 03:13:39:189 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-11-30 03:13:39:210 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-11-30 03:13:39:469 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-11-30 03:13:39:470 - info: [debug] [ADB] Device API level: 22
+2018-11-30 03:13:39:470 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell am start -W -n com.up360.parents.android.activity/com.up360.parents.android.activity.ui.IndexActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-11-30 03:13:47:802 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.up360.parents.android.activity' and activity: '.ui.IndexActivity' to be focused
+2018-11-30 03:13:47:803 - info: [debug] [ADB] Possible activities, to be checked: 'com.up360.parents.android.activity.ui.IndexActivity'
+2018-11-30 03:13:47:804 - info: [debug] [ADB] Getting focused package and activity
+2018-11-30 03:13:47:804 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21513 shell dumpsys window windows'
+2018-11-30 03:13:48:368 - info: [debug] [ADB] Found package: 'com.up360.parents.android.activity' and fully qualified activity name : 'com.up360.parents.android.activity.ui.IndexActivity'
+2018-11-30 03:13:48:369 - info: [Appium] New AndroidDriver session created successfully, session adce89fb-71f4-4b7b-a04a-323291bb7dbd added to master session list
+2018-11-30 03:13:48:370 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1543547628370 (11:13:48 GMT+0800 (GMT+08:00))
+2018-11-30 03:13:48:371 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"127.0.0.1:21513","deviceName":"127.0.0.1:21513","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appWaitActivity":".ui.IndexActivity","noReset":false,"platforVersion":"4.4.4","appPackage":"com.up360.parents.android.activity","recreateChromeDriverSessions":true},"platformName":"Android","udid":"127.0.0.1:21513","deviceName":"127.0.0.1:21513","app":"D:/python/workspace/AppiumForUp360/apk/android_phone_parents.apk","appWaitActivity":".ui.IndexActivity","noReset":false,"platforVersion":"4.4.4","appPackage":"com.up360.parents.android.activity","recreateChromeDriverSessions":true,"deviceUDID":"127.0.0.1:21513","platformVersion":"5.1.1","deviceScreenSize":"800x1280","deviceModel":"FRD-L19","deviceManufacturer":"HUAWEI","appWaitPackage":"c...
+2018-11-30 03:13:48:377 - info: [HTTP] <-- POST /wd/hub/session 200 208746 ms - 1186
+2018-11-30 03:13:48:377 - info: [HTTP] 
